@@ -12560,7 +12560,7 @@ padding:100px 0 78px;
 }
 
 .witrfm_area {
-background:#F9F9F9;
+background:#000000;
 position:relative;
 
 }
@@ -12569,7 +12569,7 @@ position:relative;
 	content: "";
     position: absolute;
     top: 0;
-    background:#F9F9F9;
+    background:#000000;
     height: 1px;
     width: 61%;
     left: 0;
@@ -12579,7 +12579,7 @@ position:relative;
 
 .footer-middle {
 padding:67px 0 75px;
-background:#F9F9F9;
+background:#000000;
 }
 
 .footer-menu {
