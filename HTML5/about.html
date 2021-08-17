@@ -288,6 +288,9 @@ The "secure by design" methodology to be used during the project lifecycle will 
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
+  // Call disableCookies before calling trackPageView 
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
