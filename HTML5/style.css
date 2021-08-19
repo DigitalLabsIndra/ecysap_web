@@ -3,3 +3,32 @@ Teamplate Name: invenit
 Version: 1.0
 */
 /* Type your CSS Here */
+
+/*margenes izquierdos y derechos*/
+body
+{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+/*logo móvil es transparente*/
+.mobile_logo_area
+{
+   background: #000000;
+}
+
+/*margen superior primer slider*/
+.witr_ds_slider_content
+{
+   margin-top: -20%;
+}
+
+a#scrollUp 
+{
+   right: 1%;
+   bottom: 1%;
+}
+
+
+
+
