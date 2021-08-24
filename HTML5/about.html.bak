@@ -29,10 +29,8 @@
 			<div class="row logo-left">
 				<!-- LOGO -->
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xl-2" style="width: 300px;">
-					<div class="logo" style="width: 300px;">
-						<a class="main_sticky_main_l" href="index.html" title="ECYSAP | European Cyber Situational Awareness Platform">
-						<img src="assets/images/logo.png" alt="ECYSAP | European Cyber Situational Awareness Platform">
-						</a>
+					
+					<div class="logo" style="width: 300px; padding-top: 10Px;">
 						<a class="main_sticky_l" href="index.html" title="ECYSAP | European Cyber Situational Awareness Platform">
 						<img src="assets/images/ECYSAP_dark.svg"  width="300px" alt="ECYSAP">
 						</a>
@@ -40,25 +38,43 @@
 				</div>
 				<!-- MAIN MENU -->
 				<div class="col-lg-9 col-md-9 col-sm-12">
-					<div class="top-right-menu" >
-													 									 								 
+					<div class="top-right-menu" > 
+											 																 
 				</div>
 					<nav class="invenit_menu main-search-menu">
 						<ul class="sub-menu nav_scroll">
-							<li class="custom-menuitem">
-								<a href="index.html" title="ECYSAP | European Cyber Situational Awareness Platform">Home</a>
-							</li>
-							<li class="current" style=" color: #00FFFF;"><a href="about.html" title="ECYSAP | Project">Project</a></li>
-							
-							<li class="custom-menuitem"><a href="partners.html" title="ECYSAP | Partners">Partners</a></li>
-								<li class="custom-menuitem"><a href="contact.html" title="ECYSAP | Contact">Contact Us</a></li>
-						</ul>
-						<ul class="social-icons text-left text_m_center">
+				
+				<li class="menu-item-has-children"><a href="concept.html">The Project</a>
+				<ul class="sub-menu">
+				   <li class="custom-menuitem"><a href="concept.html">Concept And Approach</a></li>
+				   <li class="custom-menuitem"><a href="liaison.html">Liaison</a></li> 
+				</ul>
+				</li>
+				<li class="menu-item-has-children"><a href="partners.html">People</a>
+				<ul class="sub-menu">
+				  <li class="custom-menuitem"><a href="partners.html">Consortium</a></li>
+				  <li class="custom-menuitem"><a href="advisory.html">Advisory Board</a></li>
+				</ul>
+				</li>
+
+				<li class="menu-item-has-children"><a href="news.html">Resources</a>
+				<ul class="sub-menu">
+				  <li class="custom-menuitem"><a href="news.html">News</a></li>
+				  <li class="menu-item-has-children"><a href="publications.html">Dissemination</a>
+				  <ul class="sub-menu">
+				  <li class="custom-menuitem"><a href="publications.html">Publications</a></li>
+				  <li class="custom-menuitem"><a href="events.html">Event Participation</a></li>
+				  </ul>
+				  </li>
+				</ul>
+				</li>
+				<li class="custom-menuitem"><a href="contact.html">Contact</a></li>
+					<!--	<ul class="social-icons text-left text_m_center"> -->
 						<li class="custom-menuitem"><a href="https://linkedin.com/company/ecysap"><i class="icofont-linkedin" style="font-size: 30px;"></i></a></li>
 						<li class="custom-menuitem"><a  href="https://twitter.com/ecysap" ><i class="icofont-twitter" style="font-size: 30px;"></i></a></li>
 						<li class="custom-menuitem"><a  type="application/rss+xml" href="rss/mainfeed.xml" ><i class="icofont-rss" style="font-size: 30px;"></i></a></li>
 	
-					</ul>	
+					<!-- </ul>	-->
 						
 
 					</nav>
