@@ -73,7 +73,7 @@ a#scrollUp
   color: #656565 !important;
 }
 
-/*submenus  colores*/
+/* INICIsubmenus  colores*/
 .current_mobile
 {
   background: #6aacc6 !important;
@@ -91,7 +91,7 @@ a#scrollUp
    background: #000000;
 }
 
-/*submenus  colores*/
+
 .invenit_menu ul .sub-menu
 {
    /*background:#18e0fe;*/
@@ -124,8 +124,8 @@ a#scrollUp
 
 /*menú móvil enteramente clickable*/
 .mean-container a.meanmenu-reveal{
-padding-right: 100%;
-padding-left: 0%;
+   padding-right: 100%;
+   padding-left: 0%;
 }
 
 
@@ -133,11 +133,17 @@ padding-left: 0%;
 
 .slick-next, .slick-prev
 {
-top: 70% !important;
+   top: 70% !important;
 }
 
 
-
+.logo_ue_footer
+{
+   margin:auto !important;
+   max-width: 200px;
+   max-height: 200px;
+   margin-bottom: 50px !important;
+}
 
 
 
