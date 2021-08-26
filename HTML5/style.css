@@ -3,12 +3,27 @@ Teamplate Name: invenit
 Version: 1.0
 */
 /* Type your CSS Here */
+/*https://www.templatemonster.com/website-templates/invenit-multipurpose-business-and-it-solution-responsive-website-template-161038.html*/
 
 /*margenes izquierdos y derechos*/
+/*
 body
 {
    padding-left: 20px;
    padding-right: 20px;
+}
+*/
+
+/*botón home clickable */
+/*.col-md-3
+{
+   max-width:40% ;
+}
+*/
+
+.custom-menuitem.a
+{
+   font-size:12px;
 }
 
 /*logo móvil es transparente*/
@@ -23,18 +38,21 @@ body
    margin-top: -20%;
 }
 
+/*?*/
 a#scrollUp 
 {
    right: 1%;
    bottom: 1%;
 }
 
+/*??*/
 .col-xl-11
 {
    flex: 0 0 100%;
    max-width: 100%;
 }
 
+/*colores del footer*/
 .footer-middle
 {
    border-bottom: 0;
@@ -42,7 +60,7 @@ a#scrollUp
    padding: 50px 0 2px !important;
 }
 
-
+/*colores de disclaimer*/
 .class_disclaimer
 {
 align: left;
@@ -50,28 +68,50 @@ font-size: 12px;
 color: #656565 !important;
 }
 
-
+/*submenus  colores*/
 .current_mobile
 {
 background: #6aacc6 !important;
 }
 
+/*submenus  colores*/
 .grayed_out
 {
 background: #444 !important;
 }
 
+/*submenus  colores*/
 .menu-item-has-children .custom-menuitem
 {
    background: #000000;
 }
+/*submenus  colores*/
 .invenit_menu ul .sub-menu
 {
    background:#18e0fe;
 }
 
-
+/*submenus  colores*/
 .submadre
 {
    color:#000000 !important;
 }
+
+/*menú móvil posición y botón*/
+.mean-bar::before{
+   content:"≡" !important;	
+   font-size: 36px !important;
+   position:relative;
+   top: 0% !important;
+   pointer-events: none; 
+
+}
+/*menú móvil enteramente clickable*/
+.mean-container a.meanmenu-reveal{
+padding-right: 100%;
+padding-left: 0%;
+}
+
+
+
+
