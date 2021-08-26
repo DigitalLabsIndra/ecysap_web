@@ -14,12 +14,18 @@ body
 }
 */
 
-/*botón home clickable */
-/*.col-md-3
+/* INICIO botón home clickable */
+.col-md-3
 {
-   max-width:40% ;
+   max-width:26% ;
 }
-*/
+
+.col-lg-9
+{
+   max-width:74% ;
+}
+
+/* FIN botón home clickable */
 
 .custom-menuitem.a
 {
@@ -38,7 +44,7 @@ body
    margin-top: -20%;
 }
 
-/*?*/
+/*correción de botón de 'subir arriba'*/
 a#scrollUp 
 {
    right: 1%;
@@ -63,21 +69,20 @@ a#scrollUp
 /*colores de disclaimer*/
 .class_disclaimer
 {
-align: left;
-font-size: 12px; 
-color: #656565 !important;
+  font-size: 12px; 
+  color: #656565 !important;
 }
 
 /*submenus  colores*/
 .current_mobile
 {
-background: #6aacc6 !important;
+  background: #6aacc6 !important;
 }
 
 /*submenus  colores*/
 .grayed_out
 {
-background: #444 !important;
+  background: #444 !important;
 }
 
 /*submenus  colores*/
@@ -85,16 +90,26 @@ background: #444 !important;
 {
    background: #000000;
 }
+
 /*submenus  colores*/
 .invenit_menu ul .sub-menu
 {
-   background:#18e0fe;
+   /*background:#18e0fe;*/
+   background: #000000;
+   
+}
+
+.invenit_menu ul .sub-menu a:hover 
+{
+   background: #18e0fe !important;
+   color: #CC6600 !important;
+
 }
 
 /*submenus  colores*/
 .submadre
 {
-   color:#000000 !important;
+ /*  color:#000000 !important;*/
 }
 
 /*menú móvil posición y botón*/
@@ -106,11 +121,22 @@ background: #444 !important;
    pointer-events: none; 
 
 }
+
 /*menú móvil enteramente clickable*/
 .mean-container a.meanmenu-reveal{
 padding-right: 100%;
 padding-left: 0%;
 }
+
+
+/*flechas slide (me temo que la posición es absoluta dentro del cuadro (coreo)*/
+
+.slick-next, .slick-prev
+{
+top: 70% !important;
+}
+
+
 
 
 
