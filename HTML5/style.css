@@ -7,12 +7,13 @@ Version: 1.0
 
 /*margenes izquierdos y derechos*/
 /*
-body
+body*/
+.witr_slick_slider_area.home6_slick_slider, .invenit_touch_area.invenit_touch_contect_area
 {
    padding-left: 20px;
    padding-right: 20px;
 }
-*/
+
 
 /* INICIO botón home clickable */
 .col-md-3
@@ -136,7 +137,7 @@ a#scrollUp
    top: 70% !important;
 }
 
-
+/*logo CE footer*/
 .logo_ue_footer
 {
    margin:auto !important;
@@ -145,5 +146,16 @@ a#scrollUp
    margin-bottom: 50px !important;
 }
 
+/*color footer*/
+.footer-middle
+{
+   background: #C4C4C4;
+}
 
+/*centrar imagen en slides (sobre todo en móviles*/
+.witr_ds_content_area.slick-slide
+{
+   background-repeat:no-repeat;
+   background-position: center center;
+}
 
