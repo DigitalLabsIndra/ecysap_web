@@ -172,3 +172,10 @@ a#scrollUp
    background-position: center center;
 }
 
+/*url_galería multimedia*/
+.url_galeria
+{
+   color: orange !important;	
+   font-weight: bold;
+   
+}
