@@ -3,16 +3,19 @@ Teamplate Name: invenit
 Version: 1.0
 */
 /* Type your CSS Here */
-/*https://www.templatemonster.com/website-templates/invenit-multipurpose-business-and-it-solution-responsive-website-template-161038.html*/
+/*https://www.templatemonster.com/website-templates/invenit-multipurpose-business-and-it-solution-responsive-website-template-161038.html
+https://www.templatemonster.com -> Invenit template (HTML5)
+
+*>
 
 /*margenes izquierdos y derechos*/
 /*
 body*/
-.witr_slick_slider_area.home6_slick_slider, .invenit_touch_area.invenit_touch_contect_area
+/*.witr_slick_slider_area.home6_slick_slider, .invenit_touch_area.invenit_touch_contect_area
 {
    padding-left: 20px;
    padding-right: 20px;
-}
+}*/
 
 
 /* INICIO botón home clickable */
