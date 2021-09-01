@@ -184,3 +184,10 @@ a#scrollUp
 {
    opacity: 1;
 }
+
+/*lista de objetivos*/
+.titulo_objetivo
+{
+	color: #000; 
+	font-size: 15px;
+}
