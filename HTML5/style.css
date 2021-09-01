@@ -179,3 +179,8 @@ a#scrollUp
    font-weight: bold;
    
 }
+/*opacidad video galería*/
+.prot_content
+{
+   opacity: 1;
+}
