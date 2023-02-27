@@ -24,13 +24,13 @@ color:#e5e5e1;
 font-family: 'Open Sans', sans-serif;
 font-weight:350;
 font-style:normal;
-font-size:17px;
+font-size:15px;
 line-height:22px;
 }
 
 p {
 font-style:normal;
-font-size:16px;
+font-size:15px;
 margin:0;
 
 color:#3A3A3A;
@@ -4750,12 +4750,13 @@ transition:.5s;
 
 .tab_area .tab_content a:hover {
 background:#fff;
-color:#3074ac ;
+color:#8DB450 ;
 }
 
 .tab_area .tab_content:first-child a {
 margin-right:25px;
 }
+
 
 .digital-img img {
 width:100%;
@@ -7799,6 +7800,15 @@ transform:scale(1.2);
 
 /*PROBANDO LO DE LAS IMAGENES*/
 
+#coloca{
+margin: 0 auto; 
+background-color: #FFFFFF;
+padding: 20px; 
+float: left; 
+margin-top: 20px;
+	
+	
+}
 
 .contiene-modulo-img {
 position:relative;
@@ -7806,12 +7816,56 @@ position:relative;
 transform:scale(1);
 -webkit-transition:.5s;
 transition:.5s;
+overflow: hidden;
+}
+
+.contiene-fecha{
+	font-size: 10px; 
+	color: #00FFFF; 
+	text-align: right;
+	font-weight: bold;
+	
+	
+}
+
+.contiene-modulo-titular{
+	font-size: 14px; 
+	font-weight: 400; 
+		
+}
+.contiene-modulo-titular a{
+	font-size: 14px; 
+	font-weight: 400; 
+	color: #1a1a1a; 
+    text-align: left;
+	
+}
+.contiene-modulo-titular a:hover{
+	font-size: 14px; 
+	font-weight: 400; 
+	color: #00FFFF; 
+    text-align: left;
+	text-decoration: underline;
 }
 
 
+.contiene-texto{
+	font-size: 13px; 
+	font-weight: normal; 
+	color: #1a1a1a; 
+	text-align: left;
+}
 
-.contiene-modulo-img {
-    overflow: hidden;
+
+.contiene-modulo{
+	float: left; 
+	width: 320px;  
+	box-shadow:0 2px 8px 0 rgba(0,0,0,.5); 
+	box-shadow: 0px 0px 62px -4px rgb(0 0 0 / 10%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; 
+	padding: 30px; 
+	margin-right: 20px;
+	
 }
 
 
@@ -15671,7 +15725,7 @@ color:#131414;
 margin-right:15px;
 border:0;
 border-radius:5px;
-font-size:17px;
+font-size:14px;
 padding:26px 40px;
 position:relative;
 box-shadow:0 0 25px 2px rgba(196,206,213,.2);
@@ -15695,7 +15749,7 @@ margin:0 15px;
 }
 
 .nav-link strong {
-font-size:23px;
+font-size:16px;
 display:inline-block;
 }
 
