@@ -1,5 +1,4 @@
----
 deployment:
   tasks:
-    - /bin/cp -r HTML5/* ./
-
+    - export DEPLOYPATH=public_html
+    - /bin/cp -r HTML5/* $DEPLOYPATH
